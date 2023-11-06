@@ -1,0 +1,13 @@
+/* Define a class for the button */
+.my-button {
+    /* ... (other button styles) */
+    
+    /* Default cursor style */
+    cursor: pointer;
+  }
+  
+  /* Change cursor style on hover */
+  .my-button:hover {
+    cursor: grab; /* Change to a different cursor style, e.g., "grab" */
+  }
+  

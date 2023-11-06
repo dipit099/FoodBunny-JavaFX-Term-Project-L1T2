@@ -1,0 +1,4 @@
+/* Style for ListView items */
+.list-view .list-cell {
+    -fx-font-size: 15px; /* Adjust the font size as needed */
+}

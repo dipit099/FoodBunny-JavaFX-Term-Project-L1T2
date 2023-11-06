@@ -1,0 +1,22 @@
+/* Define a class for the button */
+.my-button {
+    /* ... (other button styles) */
+    
+    /* Default cursor style */
+    cursor: pointer;
+    -fx-background-color: silver;
+  }
+  
+  /* Change cursor style on hover */
+  .my-button:hover {
+    /*change color of the button*/
+    -fx-background-color: rgb(222, 118, 118);
+   
+    cursor: hand;
+    
+    -fx-scale-x: 1.25;
+    -fx-scale-y: 1.25;
+    
+  }
+  /* Style for ListView items */
+  

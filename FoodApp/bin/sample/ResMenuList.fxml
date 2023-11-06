@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="706.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ResController">
+    <children>
+        <TableView fx:id="tableView" layoutX="59.0" layoutY="112.0" prefHeight="580.0" prefWidth="739.0">
+        <columns>
+            <TableColumn prefWidth="159.0" text="Food Name" />
+            <TableColumn prefWidth="233.0" text="Category" />
+            <TableColumn prefWidth="134.0" text="Price" />
+            <TableColumn minWidth="0.0" prefWidth="212.0" text="In Restaurant" />
+        </columns>
+    </TableView>
+      <Button layoutX="59.0" layoutY="33.0" mnemonicParsing="false" onAction="#resHome" text="Home">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+    </children>
+
+
+
+
+</AnchorPane>

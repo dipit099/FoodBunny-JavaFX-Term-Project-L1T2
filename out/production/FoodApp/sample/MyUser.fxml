@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UserController">
+   <children>
+      <ImageView fitHeight="86.0" fitWidth="85.0" layoutX="651.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../user.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="userName" layoutX="668.0" layoutY="92.0" prefHeight="38.0" prefWidth="52.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="userHomePage" prefHeight="570.0" prefWidth="760.0">
+         <children>
+            <TextField fx:id="firstName" layoutX="37.0" layoutY="37.0" prefHeight="27.0" prefWidth="210.0" promptText="your input">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TableView fx:id="table" layoutX="37.0" layoutY="100.0" prefHeight="464.0" prefWidth="580.0">
+              <columns>
+                <TableColumn fx:id="foodCategoryColumn" prefWidth="148.0" text="Food Category" />
+                <TableColumn fx:id="foodNameColumn" prefWidth="213.0" text="Name" />
+                  <TableColumn fx:id="foodPriceColumn" prefWidth="93.0" text="Price" />
+                  <TableColumn fx:id="foodResColumn" prefWidth="118.0" text="Restaurant" />
+              </columns>
+            </TableView>
+            <Button layoutX="627.0" layoutY="236.0" mnemonicParsing="false" onAction="#searchResButton" text="Choose Restaurant" />
+            <Button layoutX="627.0" layoutY="315.0" mnemonicParsing="false" onAction="#addToCart" prefHeight="27.0" prefWidth="126.0" text="Add to Cart" />
+            <Button layoutX="627.0" layoutY="394.0" mnemonicParsing="false" onAction="#viewCart" prefHeight="27.0" prefWidth="126.0" text="View Cart" />
+            <ComboBox fx:id="myFoodComboBox" layoutX="467.0" layoutY="64.0" prefWidth="150.0" promptText="Food Search Options" />
+            <Button layoutX="275.0" layoutY="45.0" mnemonicParsing="false" onAction="#foodItemSearch" text="Search" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="cartPage" prefHeight="565.0" prefWidth="759.0" visible="false">
+         <children>
+            <Button layoutX="611.0" layoutY="283.0" mnemonicParsing="false" onAction="#deleteItem" prefHeight="27.0" prefWidth="116.0" text="Delete Item" />
+            <Label layoutX="311.0" layoutY="37.0" text="MY CART:">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <TableView fx:id="carttable" layoutX="79.0" layoutY="94.0" prefHeight="432.0" prefWidth="516.0">
+               <columns>
+                  <TableColumn fx:id="cartFoodCategoryColumn" prefWidth="179.0" text="Food Category" />
+                  <TableColumn fx:id="cartFoodNameColumn" prefWidth="200.0" text="Food Name" />
+                  <TableColumn fx:id="cartFoodPriceColumn" prefWidth="135.0" text="Food Price" />
+               </columns>
+            </TableView>
+            <Button layoutX="611.0" layoutY="494.0" mnemonicParsing="false" onAction="#confirmOrder" text="Order Confirmed" />
+            <Button layoutX="611.0" layoutY="344.0" mnemonicParsing="false" onAction="#backtoUserPage" prefHeight="27.0" prefWidth="116.0" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
