@@ -1,11 +1,14 @@
 # Food_Bunny
+CSE 108 Project.
 
-Project Name: FoodBunny
 
-using Java and JavaFx Library
+Project Name: FoodBunny using Java and JavaFx Library.
 
-CSE 108 Project. Enjoyed every moment while working on it.
 
+
+# Short VideoPlay
+
+Link here https://youtu.be/ypb6dg9CDvA
 # Description
 
 This is a food delivery app that allows users to order food from restaurants and at the same time allows restaurants to manage their orders. This app is built using Java in the backend and JavaFX in GUI.
@@ -30,6 +33,4 @@ If you want to run the app using 2 different devices, then you have to change th
 
 Then run the server side in one system and the client side in another system. Now you can use the app in both the systems. Make sure that both the systems are connected to the same network.
 
-# Short VideoPlay
 
-Link here https://youtu.be/ypb6dg9CDvA
