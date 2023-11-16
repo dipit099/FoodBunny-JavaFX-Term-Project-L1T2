@@ -12,6 +12,19 @@ Link here https://youtu.be/ypb6dg9CDvA
 # Description
 
 This is a food delivery app that allows users to order food from restaurants and at the same time allows restaurants to manage their orders. This app is built using Java in the backend and JavaFX in GUI.
+# Setup
+1. Create Java Project in VS code
+2. Replace the src folder with my one
+3. Add "lib folder" of jdk-20 into Reference Libray of java project like it
+   
+![image](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/310c651d-b50e-42c1-a2ff-64972bf551a4)
+
+4. Go to add config and paste it there
+"vmArgs": "--module-path \"C:/javafx-sdk-20.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+
+![image](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/6c89ffb8-5e7c-4a3f-ab70-cdf7ab8799e0)
+
+
 
 # How to Run
 
