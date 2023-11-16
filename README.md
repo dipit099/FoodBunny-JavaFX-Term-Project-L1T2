@@ -20,6 +20,7 @@ This is a food delivery app that allows users to order food from restaurants and
 ![image](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/310c651d-b50e-42c1-a2ff-64972bf551a4)
 
 4. Go to add config and paste it there
+5. 
 "vmArgs": "--module-path \"C:/javafx-sdk-20.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
 
 ![image](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/6c89ffb8-5e7c-4a3f-ab70-cdf7ab8799e0)
