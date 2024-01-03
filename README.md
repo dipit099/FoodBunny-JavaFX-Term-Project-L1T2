@@ -24,9 +24,12 @@ Watch a short video preview of the FoodBunny app [here](https://youtu.be/ypb6dg9
 
    ![VM Arguments Setup](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/6c89ffb8-5e7c-4a3f-ab70-cdf7ab8799e0)
 
+
    
 
 # How to Run
+
+**Remember to Change the ```FILE PATH``` of password.txt, restaurant.txt and menu.txt . Check server.java, fileoperations.java for this.**
 
 1. Run the `Server.java` file in the 'server' folder.
 2. Run the `Main.java` file in the 'sample' folder.
