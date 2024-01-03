@@ -1,50 +1,45 @@
-# Food_Bunny
-CSE 108 Project.
+# FoodBunny - Java and JavaFX Food Delivery App
 
+## Project Overview
 
-Project Name: FoodBunny using Java and JavaFx Library.
+FoodBunny is a food delivery application developed using Java for the backend and JavaFX for the graphical user interface (GUI). This project facilitates users to order food from restaurants while providing a platform for restaurants to manage their orders efficiently.
 
+## Short Video Preview
 
+Watch a short video preview of the FoodBunny app [here](https://youtu.be/ypb6dg9CDvA).
 
-# Short VideoPlay
+## Setup Instructions
 
-Link here https://youtu.be/ypb6dg9CDvA
-# Description
-
-This is a food delivery app that allows users to order food from restaurants and at the same time allows restaurants to manage their orders. This app is built using Java in the backend and JavaFX in GUI.
-# Setup
-1. Create Java Project in VS code
-2. Replace the src folder with my one
-3. Add "lib folder" of jdk-20 into Reference Libray of java project like it
+1. Create a Java project in VS Code.
+2. Replace the `src` folder with the provided one.
+3. Add the "lib" folder of JDK-20 into the Reference Library of the Java project.<br/><br/>
+   ![Reference Library Setup](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/310c651d-b50e-42c1-a2ff-64972bf551a4)
    
-![image](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/310c651d-b50e-42c1-a2ff-64972bf551a4)
-
-4. Go to add config and paste it there
-   
-"vmArgs": "--module-path \"C:/javafx-sdk-20.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
-
-![image](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/6c89ffb8-5e7c-4a3f-ab70-cdf7ab8799e0)
-
-
+5. Add the following VM arguments in the configuration:
+```bash
+   vmArgs": "--module-path \"C:/javafx-sdk-20.0.2/lib\" --add-modules javafx.controls,javafx.fxml
+```
+   ![VM Arguments Setup](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/6c89ffb8-5e7c-4a3f-ab70-cdf7ab8799e0)
 
 # How to Run
 
-1.Run the 'Server.java' file in the 'server' package.
+1. Run the `Server.java` file in the 'server' package.
+2. Run the `Main.java` file in the 'sample' package.
+3. Once the app is running, log in as a customer or a restaurant.
+4. If logging in as a customer, you can order food from restaurants and track your orders.
+5. If logging in as a restaurant, you can manage your orders.
+6. Before running `Main.java`, ensure that `Server.java` is already running.
 
-2.Run the 'Main.java' file in the 'sample' package.
+# Restaurant Manager Interface
 
-3.Once the app is running, you can login as a customer or a restaurant.
+# User Interface
 
-4.If you login as a customer, you can order food from restaurants and track your orders.
+# Fun Fact
 
-If you login as a restaurant, you can manage your orders.
+If you want to run the app on two different devices, change the IP address in the `Main.java` file on the client system to your system's IP address (found using the `ipconfig` command in the command prompt). Run the server side on one system and the client side on another system, both connected to the same network.
 
-5.Before running 'Main.java' file, make sure that 'Server.java' file is running.
+Feel free to explore and contribute to this FoodBunny project!
 
-# FunFact
+---
 
-If you want to run the app using 2 different devices, then you have to change the IP address in the 'Main.java' file in the 'sample' package to your system's IP address for the client system but not the server system. You can find your system's IP address by running the command ipconfig in the command prompt.
-
-Then run the server side in one system and the client side in another system. Now you can use the app in both the systems. Make sure that both the systems are connected to the same network.
-
-
+*Note: Adjust paths and configurations based on your system environment.*
