@@ -38,7 +38,10 @@ Watch a short video preview of the FoodBunny app [here](https://youtu.be/ypb6dg9
 
  **Notice:** Before running `Main.java`, ensure that `Server.java` is already running.
 
-## User Interface
+
+<br/>
+
+# User Interface
 
 ![Screenshot_3](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/6c49b0e8-ee0f-404e-b3f4-54bb35960571)
 
@@ -48,7 +51,9 @@ Watch a short video preview of the FoodBunny app [here](https://youtu.be/ypb6dg9
 
 ![Screenshot_7](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/054e0014-6c07-4c5c-a5f6-6adba2e5637a)
 
-## Restaurant Manager Interface
+<br/>
+
+# Restaurant Manager Interface
 
 ![Screenshot_4](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/e2d30230-2e42-4b69-8962-8364b0fdb4fe)
 
