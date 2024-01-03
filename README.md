@@ -17,7 +17,7 @@ Watch a short video preview of the FoodBunny app [here](https://youtu.be/ypb6dg9
    
 5. Add the following VM arguments in the configuration:
 ```bash
-   vmArgs": "--module-path \"C:/javafx-sdk-20.0.2/lib\" --add-modules javafx.controls,javafx.fxml
+   "vmArgs": "--module-path \"C:/javafx-sdk-20.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
 ```
    ![VM Arguments Setup](https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2/assets/112118531/6c89ffb8-5e7c-4a3f-ab70-cdf7ab8799e0)
 
